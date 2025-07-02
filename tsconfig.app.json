@@ -25,5 +25,6 @@
 
     "types": ["vitest", "vite/client"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.test.tsx", "src/**/*.test.ts"]
 }
